@@ -5,11 +5,12 @@ import java.io.File;
 public class Main {
 
     public static void main(String[] args) {
-        String path1 = "D:\\РњРѕРё РґРѕРєСѓРјРµРЅС‚С‹\\Java Files\\JavaHW\\Games\\savegames\\save1.dat";
-        String path2 = "D:\\РњРѕРё РґРѕРєСѓРјРµРЅС‚С‹\\Java Files\\JavaHW\\Games\\savegames\\save2.dat";
-        String path3 = "D:\\РњРѕРё РґРѕРєСѓРјРµРЅС‚С‹\\Java Files\\JavaHW\\Games\\savegames\\save3.dat";
+        String path = "D:\\Мои документы\\Java Files\\JavaHW\\Games\\savegames";
+        String path1 = path + "\\save1.dat";
+        String path2 = path + "\\save2.dat";
+        String path3 = path + "\\save3.dat";
 
-        String zip = "D:\\РњРѕРё РґРѕРєСѓРјРµРЅС‚С‹\\Java Files\\JavaHW\\Games\\savegames\\savedFiles.zip";
+        String zip = path + "\\savedFiles.zip";
 
         GameProgress progress1 = new GameProgress(5, 3, 6, 6.5);
         GameProgress progress2 = new GameProgress(4, 7, 2, 2.3);
